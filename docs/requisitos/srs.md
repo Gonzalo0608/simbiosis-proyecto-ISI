@@ -272,7 +272,7 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 |Cuidador| Rol profesional acreditado, que puede mantener un seguimiento de un paciente bajo el consentimiento del mismo| ACRG s3|
 |Acreditación profesional| Procedimiento por el que una persona demuestra su condición profesional para actuar como nutricionista|A3 s1.3|
 |Receta aceptada| Receta adecuada al perfil, las alergias o las restricciones alimentarias de un paciente. La plataforma no modifica automáticamente sus ingredientes o cantidades| DVA s1.1 y 2.1; A3 s3|
-|Receta propuesta| Receta generada por parte de un paciente que esta esperando por la validación de un profesional| ACRG s3|
+|Receta propuesta| Receta generada por parte de un paciente o cuidador que esta esperando por la validación de un profesional para poder considerarse como válida| ACRG s3|
 ## 10. Modelos de análisis
 
 Los modelos hacen visible la interpretación de los requisitos y deben mantener
