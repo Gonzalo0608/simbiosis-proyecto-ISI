@@ -67,8 +67,8 @@ Para cada vista, incluye un título, una frase sobre su alcance y el diagrama. T
 
 **Alcance:** [Explica qué funciones representa esta vista.]
 
-[Inserta aquí el diagrama.]
-
+![Casos de uso de acceso cuentas y ayuda](imagenes/Casos_de_Uso_acceso_ayuda_simbiosis.png)
+Casos_de_Uso_acceso_ayuda_simbiosis.png
 Si una decisión necesita aclaración, puedes añadir una nota breve junto al diagrama.
 
 **Nombre y ubicación de la imagen.** Guarda las imágenes en `docs/modelos/imagenes/`. Usa este patrón:
