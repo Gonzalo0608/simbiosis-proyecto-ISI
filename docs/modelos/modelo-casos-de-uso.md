@@ -30,6 +30,7 @@ Registra los roles externos que participan en las funciones representadas. Un ac
 | --- | --- |
 | Usuario | Persona que interactúa con proyecto simbiosis |
 | Usuario registrado | Persona que tiene una cuenta en la plataforma|
+| Cuidador | Persona autorizada que mantiene el cuidado de un paciente |
 
 Mantén los mismos nombres en las tablas, los diagramas y las descripciones.
 
@@ -41,7 +42,12 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 
 | Identificador | Nombre | Objetivo | Participantes |
 | --- | --- | --- | --- |
-| [UC-05] | Actualizar perfil | Actualizar los datos personales y referencias en la cuenta propia | Actor principal: Usuario registrado. No se identifica actor de apoyo |
+| UC-05 | Actualizar perfil | Actualizar los datos personales y referencias en la cuenta propia | Actor principal: Usuario registrado. No se identifica actor de apoyo |
+| UC-06 | Eliminar cuenta propia | Eliminar la cuenta propia creada teniendo que verificar su identidad mediante una contraseña| Actor principal: Usuario. No se identifica actor de apoyo|
+| UC-07 | Publicar contenido | Publicar contenido dentro de la pagina | Actor principal: Cuidador |
+| UC-08 | Registro | Registrarse en la pagina |Actor principal: Usuario |
+| UC-09 | Cambo de contraseña | Cambiar la contraseña del |
+
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
@@ -99,7 +105,8 @@ En E1 basta con un respaldo breve del diagrama. La tabla permite ampliar la traz
 
 | Elemento del modelo | UR y FR de referencia | NFR pertinentes | Relación con los requisitos |
 | --- | --- | --- | --- |
-| U-05 Actualizar perfil | UR-03; FR-019 | NFR-010 GLOBAL | Fr-019 permite modificar datos personales y preferencias, pero excluye alias y correo. NFR-010 condiciona la accesibilidad de esta función |
+| UC-05 Actualizar perfil | UR-03; FR-019 | NFR-010 GLOBAL | Fr-019 permite modificar datos personales y preferencias, pero excluye alias y correo. NFR-010 condiciona la accesibilidad de esta función |
+| UC-06 Eliminar cuenta | | UR-03; FR-019; FR-020 | | |
 
 Consulta el [catálogo canónico](../requisitos/catalogo-requisitos.md) y la [SRS](../requisitos/srs.md). Si falta una condición, indica que está pendiente de aclaración. No la presentes como un requisito confirmado.
 
