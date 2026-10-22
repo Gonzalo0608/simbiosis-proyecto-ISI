@@ -262,6 +262,8 @@ No existe ningún actor de apoyo para este caso
 
 **Precondiciones:** La consulta debe de ser con una cuenta con la sesión iniciada.
 
+La existencia de recetas no es una condición previa, se comprueba al ejecutar la busqueda
+
 **Inicio:** El usuario selecciona la opcion de buscar una receta.
 
 **Escenario principal de éxito:** 1- El usuario selecciona la funcionalidad buscar una receta.
@@ -270,11 +272,20 @@ No existe ningún actor de apoyo para este caso
 4- el sistema ofrece una serie de recetas que incluyan todos los criterios ofrecidos por el usuario en orden de publicación mas reciente.
 5- el usuario seleciciona uno de los resultados ofrecidos por el sistema.
 6- el sistema muestra en detalle todos los datos de esta receta.
+7- fin del caso de uso
 
 **Extensiones (flujos alternativos):**  
+El usuario busca mediante palabra o frase: 1- EL usuario introduce un texto de busqueda en lugar de seleccionar un ingrediente
+2- el flujo continua en el paso 4.
+3- en el paso 6, el sistema aplica la regla de coincidencia del texto incluida en el acta.
+
+El usuario excluye ingrtedientes: 1- El usuario selecciona los ingredientes que quiere excluir
+2- el flujo continua en el paso 4.
+
+
 No se selecciona ningún criterio: 1- El usuario no selecciona ningún criterio de busqueda.
 2- el sistema no ejecuta la busqueda.
-3- vuelva al paso 2.
+3- vuelve al paso 2.
 
 Se selecciona el mismo ingrediente en inclusion como en exclusión: 1- El usuario selecciona el mismo ingrediente el la parte de inclusión y en la parte de exclusion.
 2- el sistema detecta el fallo y envía un mensaje de conflicto esperando a que el usuario cambie el elemento de uno de los dos campos.
