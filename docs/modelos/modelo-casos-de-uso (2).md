@@ -273,7 +273,14 @@ No existe ningún actor de apoyo para este caso
 
 **Extensiones (flujos alternativos):**  
 No se selecciona ningún criterio: 1- El usuario no selecciona ningún criterio de busqueda.
-2- 
+2- el sistema no ejecuta la busqueda.
+3- vuelva al paso 2.
+
+Se selecciona el mismo ingrediente en inclusion como en exclusión: 1- El usuario selecciona el mismo ingrediente el la parte de inclusión y en la parte de exclusion.
+2- el sistema detecta el fallo y envía un mensaje de conflicto esperando a que el usuario cambie el elemento de uno de los dos campos.
+
+Búsqueda sin resultados: 1- El sistema no encuentras una receta que incluya todos los criterios ofrecidos por el usuario.
+2- el sistema guarda los criterios seleccionados para una futura modificación y ofrece el mensaje "Búsqueda sin resultados".
 
 
 **Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
