@@ -253,11 +253,13 @@ La validez de los nuevos datos se comprueba durante el caso de uso.
 
 ### 6.2 Descripción detallada UC-21 — Buscar recetas
 
-**Identificador y nombre del caso de uso:** [Indica el caso.]
+**Identificador y nombre del caso de uso:** UC-21 Buscar recetas
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:**  localizar una receta que cumpla sus criterios y consultar su detalle.
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** |Persona usuaria registrada como actor principal|
+|No existe ningún actor de apoyo para este caso|
+
 
 **Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
 
