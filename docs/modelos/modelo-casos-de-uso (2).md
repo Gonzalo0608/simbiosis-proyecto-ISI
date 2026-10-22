@@ -257,17 +257,24 @@ La validez de los nuevos datos se comprueba durante el caso de uso.
 
 **Objetivo:**  localizar una receta que cumpla sus criterios y consultar su detalle.
 
-**Participantes:** |Persona usuaria registrada como actor principal|
-|No existe ningún actor de apoyo para este caso|
+**Participantes:** Persona usuaria registrada como actor principal.
+No existe ningún actor de apoyo para este caso
 
+**Precondiciones:** La consulta debe de ser con una cuenta con la sesión iniciada.
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Inicio:** El usuario selecciona la opcion de buscar una receta.
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
+**Escenario principal de éxito:** 1- El usuario selecciona la funcionalidad buscar una receta.
+2- el sistema solicita al usuario que introduzca los los criterios de su busqueda.
+3- el usuario selecciona los criterios de su busqueda.
+4- el sistema ofrece una serie de recetas que incluyan todos los criterios ofrecidos por el usuario en orden de publicación mas reciente.
+5- el usuario seleciciona uno de los resultados ofrecidos por el sistema.
+6- el sistema muestra en detalle todos los datos de esta receta.
 
-**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
+**Extensiones (flujos alternativos):**  
+No se selecciona ningún criterio: 1- El usuario no selecciona ningún criterio de busqueda.
+2- 
 
-**Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
 **Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
 
