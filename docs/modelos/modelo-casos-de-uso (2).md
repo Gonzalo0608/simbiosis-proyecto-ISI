@@ -298,7 +298,7 @@ Búsqueda sin resultados: 1- El sistema no encuentras una receta que incluya tod
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
-**Preguntas abiertas:** [Registra solo las cuestiones necesarias que las fuentes no resuelvan. Si no hay preguntas para el alcance descrito, indícalo.]
+**Preguntas abiertas:** docs/modelos/imagenes/AC_ UC21-Buscar recetas.png
 
 ## 7 Continuidad entre iteraciones
 
